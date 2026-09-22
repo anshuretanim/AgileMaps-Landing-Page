@@ -1,0 +1,305 @@
+Build a **frontend-only landing page for a web platform called “AgileMaps.”**
+
+AgileMaps is a platform for creating, discovering, exploring, customizing, and eventually forking **visual roadmaps**. Roadmaps represent knowledge, skills, technologies, or goals as connected nodes and branching paths.
+
+The goal of this page is to introduce AgileMaps and make the product concept immediately understandable.
+
+## Design direction
+
+Use a **minimalistic black-and-white theme**.
+
+The visual identity should be:
+
+* Black / near-black background
+* White primary text
+* Subtle gray secondary text
+* Thin gray borders
+* White or near-black UI surfaces
+* No unnecessary colors
+
+The website should feel like a **modern developer tool / SaaS startup**, not an educational website.
+
+Think:
+**minimal + technical + elegant + bold + spacious**
+
+The design should have strong typography and excellent use of negative space.
+
+### Strictly avoid
+
+* Gradients
+* Glassmorphism
+* Neon colors
+* Colorful illustrations
+* Stock images
+* 3D graphics
+* Excessive shadows
+* Excessive rounded cards
+* Cartoon elements
+* Excessive animations
+* Clutter
+* Generic corporate illustrations
+
+Keep everything restrained and intentional.
+
+---
+
+# Navigation Bar
+
+Create a clean, minimal navigation bar at the top.
+
+Left:
+
+**AgileMaps**
+
+Use a simple abstract roadmap/graph-inspired logo mark beside the name.
+
+Navigation links:
+
+**Explore**
+
+**Create**
+
+**My Maps**
+
+Right side:
+
+**Sign In**
+
+**Create Roadmap**
+
+The navbar should have a subtle bottom border.
+
+Keep it compact and spacious.
+
+### Navigation behavior
+
+Since this is only a landing-page prototype, **none of these pages need to actually exist yet**.
+
+When the user clicks:
+
+* Explore
+* Create
+* My Maps
+* Sign In
+* Create Roadmap
+
+navigate to a simple placeholder page displaying:
+
+**Work in Progress**
+
+with a small secondary message:
+
+**This part of AgileMaps is still being built.**
+
+Keep the placeholder page consistent with the black-and-white design.
+
+---
+
+# Hero Section
+
+The hero is the most important part of the homepage.
+
+Use a large amount of whitespace.
+
+Large headline:
+
+**Map Your Way Forward.**
+
+Supporting text:
+
+**Create and explore visual roadmaps that turn complex goals into clear paths.**
+
+Primary CTA:
+
+**Explore Roadmaps**
+
+Secondary CTA:
+
+**Create a Roadmap**
+
+The buttons should be simple black/white outlined or filled buttons with subtle hover states.
+
+---
+
+# Hero Visual
+
+Below or beside the hero text, create a **minimal abstract roadmap visualization**.
+
+This is the key visual element of the landing page.
+
+Represent a roadmap as a small number of connected geometric nodes.
+
+For example:
+
+```text
+                         ┌──────────────┐
+                         │    React     │
+                         └──────────────┘
+                                │
+                                │
+┌─────────────┐          ┌──────┴───────┐
+│ JavaScript  │──────────│  Frontend    │
+└─────────────┘          └──────────────┘
+                                │
+                                │
+                         ┌──────┴───────┐
+                         │ Full Stack   │
+                         └──────────────┘
+```
+
+However, **do not make it look like an actual flowchart**.
+
+Make the visualization aesthetically designed, abstract, and minimal.
+
+Use thin lines, simple rectangular or geometric nodes, and subtle variations in size.
+
+The visual should communicate:
+
+**Start → explore → branch → choose a path → reach a goal**
+
+It should feel like a **map of possibilities**, not a technical diagram.
+
+---
+
+# Product Explanation
+
+Below the hero, add a very small section explaining the idea.
+
+Heading:
+
+**Your path. Your map.**
+
+Text:
+
+**AgileMaps helps you visualize the path from where you are to where you want to be. Build structured roadmaps, discover paths created by others, and eventually make them your own.**
+
+Keep this section visually simple.
+
+Do not create a huge feature grid.
+
+---
+
+# How It Works
+
+Create a minimal three-step section.
+
+### 01 — Discover
+
+**Find roadmaps built around the skills and goals you care about.**
+
+### 02 — Explore
+
+**Follow the connections between concepts and understand what comes next.**
+
+### 03 — Build
+
+**Create and customize your own path through the things you want to learn.**
+
+Use simple typography and numbers rather than large icons.
+
+---
+
+# Final CTA
+
+Near the bottom of the page, create a simple final section.
+
+Large heading:
+
+**Where will your map take you?**
+
+Supporting text:
+
+**Start exploring the paths people are building.**
+
+Button:
+
+**Explore AgileMaps**
+
+Keep this section minimal and spacious.
+
+---
+
+# Footer
+
+Create a very simple footer.
+
+Left:
+
+**AgileMaps**
+
+Right:
+
+* Explore
+* Create
+* My Maps
+* GitHub
+
+These links can also point to the same **“Work in Progress”** placeholder page.
+
+Include a subtle copyright line.
+
+---
+
+# Responsive Design
+
+Make the landing page responsive.
+
+On desktop:
+
+* Large hero typography
+* Roadmap visualization prominently displayed
+* Generous horizontal spacing
+
+On mobile:
+
+* Stack the hero vertically
+* Reduce typography appropriately
+* Keep the roadmap visualization readable
+* Collapse navigation into a simple mobile menu
+
+---
+
+# Technical Requirements
+
+This is a **frontend-only prototype**.
+
+Use mock/static content only.
+
+Do not implement:
+
+* Backend
+* Database
+* Authentication
+* Real user accounts
+* Real roadmap persistence
+* Real search
+* Real sharing
+* Real forking
+
+The only interactive behavior required is:
+
+* Navigation
+* Buttons
+* Hover states
+* Mobile menu
+* Navigation to the “Work in Progress” placeholder page
+
+Use reusable components and clean frontend structure.
+
+If using React, keep the implementation component-based and easy to extend later.
+
+---
+
+# Overall feeling
+
+The landing page should feel like the homepage of a **real, ambitious developer product that is currently in its early stage**.
+
+It should not try to explain every feature.
+
+It should make a visitor understand one simple idea:
+
+**AgileMaps turns goals and knowledge into visual paths that people can explore and build upon.**
+
+Prioritize **simplicity, typography, spacing, and the roadmap visual** over adding more sections.
+
+The final design should be **black and white, minimal, distinctive, and memorable**.
